@@ -1,4 +1,4 @@
-# Post BigQuery Direct from Raspberry Pi PICO W
+# Post BigQuery Directly from Raspberry Pi PICO W
 
 ## Create GCP service account key
 
