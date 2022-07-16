@@ -84,8 +84,7 @@ def request_token(jwt: str) -> str:
         data="grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=" + jwt,
         headers={"Content-Type": "application/x-www-form-urlencoded"}
     )
-    r.json()
-    return r.json["access_token"]
+    return r.json()["access_token"]
 
 def insert_bq(inser_id: str, data: dict, project_id: str, dataset_id: str, table_id: str, access_token: str):
     payload = {
