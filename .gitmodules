@@ -1,0 +1,6 @@
+[submodule "third_party/rsa-signing"]
+	path = third_party/micropython-rsa-signing
+	url = https://github.com/artem-smotrakov/micropython-rsa-signing
+[submodule "third_party/iot-core-micropython"]
+	path = third_party/iot-core-micropython
+	url = https://github.com/GoogleCloudPlatform/iot-core-micropython

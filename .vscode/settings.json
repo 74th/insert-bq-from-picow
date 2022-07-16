@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "third_party/micropython-rsa-signing",
+    "third_party/iot-core-micropython/third_party"
+  ]
+}
